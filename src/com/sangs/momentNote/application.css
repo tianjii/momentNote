@@ -1,0 +1,67 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.lineno{
+ -fx-background-color: #444;
+ -fx-border-color: #999;
+ -fx-border-width: 0 1 0 0;
+}
+
+.lineno .text{
+	-fx-font-size: 16;
+	-fx-font-family: consolas;
+}
+
+.tabPane .text{
+	-fx-fill: #FFF;
+}
+
+.tabPane .caret{
+	-fx-stroke: white;
+}
+
+.add-btn:pressed .text{
+	-fx-fill: #42dff7;
+} 
+
+.text-body .text{
+	-fx-fill: #a4f442;
+	-fx-font-family: consolas;
+}
+
+.add-body .text{
+	-fx-fill: #42dff7;
+	-fx-font-family: consolas;
+}
+
+
+.search-tab:selected .text{
+	-fx-fill: #a4f442;
+}
+
+.add-tab:selected .text{
+	-fx-fill: #42dff7;
+}
+
+
+.menuBar .text{
+	-fx-fill: #FFF;
+}
+
+#add-list .text{
+	-fx-fill: #42dff7;
+	-fx-font-family: consolas;
+}
+
+.list-view .list-cell:even {
+-fx-background-color: #444;
+}
+
+.list-view .list-cell:odd {
+-fx-background-color: #333;
+}
+
+.list-view .list-cell:selected {
+	-fx-background-color: #555;
+}
+
